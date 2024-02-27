@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\Course\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B13E6255-D9A8-4F3D-A34D-0D77D0BAAF74}|Course\\Course.csproj|c:\\users\\administrator\\documents\\projects\\c#\\course\\course\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13E6255-D9A8-4F3D-A34D-0D77D0BAAF74}|Course\\Course.csproj|solutionrelative:course\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B13E6255-D9A8-4F3D-A34D-0D77D0BAAF74}|Course\\Course.csproj|c:\\users\\administrator\\documents\\projects\\c#\\course\\course\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B13E6255-D9A8-4F3D-A34D-0D77D0BAAF74}|Course\\Course.csproj|solutionrelative:course\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Triangulo.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\Course\\Course\\Triangulo.cs",
+              "RelativeDocumentMoniker": "Course\\Triangulo.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\Course\\Course\\Triangulo.cs",
+              "RelativeToolTip": "Course\\Triangulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T01:13:45.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\Course\\Course\\Program.cs",
+              "RelativeDocumentMoniker": "Course\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\Course\\Course\\Program.cs",
+              "RelativeToolTip": "Course\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T00:12:22.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
