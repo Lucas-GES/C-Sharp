@@ -11,14 +11,19 @@ namespace PrimeirosExercicios
             Console.WriteLine("Qual exercicio rodar?");
             Console.WriteLine("1 - Pessoa");
             Console.WriteLine("2 - Funcionários");
+            Console.WriteLine("3 - Produto");
             program = int.Parse(Console.ReadLine());
             if(program == 1)
             {
                 Pessoa();
             }
-            else
+            else if(program == 2)
             {
                 Funcionario();
+            }
+            else
+            {
+                Produto();
             }
         }
 
@@ -72,6 +77,35 @@ namespace PrimeirosExercicios
 
             double media = (funcionario1.Salario + funcionario2.Salario) / 2.0;
             Console.Write("Salário médio = " + media.ToString("F2", CultureInfo.InvariantCulture));
+        }
+
+        public static void Produto()
+        {
+            Produto p = new Produto();
+
+            Console.WriteLine("Entre os dados do produto:");
+            Console.Write("Nome: ");
+            p.Nome = Console.ReadLine();
+            Console.Write("Preço: ");
+            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Quantidade no estoque: ");
+            p.Quantidade = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+            Console.WriteLine("Dados do produto: " + p);
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser adicionado no estoque: ");
+            int qte = int.Parse(Console.ReadLine());
+            p.AdicionarProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser removido do estoque: ");
+            qte = int.Parse(Console.ReadLine());
+            p.RemoverProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine();
         }
     }
 
