@@ -15,6 +15,8 @@ namespace Course
             Console.WriteLine("1 - Construtores");
             Console.WriteLine("2 - Sobrecarga");
             Console.WriteLine("3 - Encapsulamento");
+            Console.WriteLine("4 - Properties");
+            Console.WriteLine("5 - Exercicio de Fixação");
 
             int opcao = int.Parse(Console.ReadLine());
             switch(opcao)
@@ -26,6 +28,12 @@ namespace Course
                 break;
 
                 case 3: Encapsulamento();
+                break;
+
+                case 4: Properties();
+                break;
+
+                case 5: ExercicioSection();
                 break;
 
                 default: Console.WriteLine("Valor não permitido");
@@ -100,10 +108,69 @@ namespace Course
         {
             Produto p = new Produto("TV", 500.00, 10);
 
-            p.SetNome("T");
+            p.Nome = "T";
 
-            Console.WriteLine(p.GetNome());
-            Console.WriteLine(p.GetPreco());
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
+        }
+
+        public static void Properties()
+        {
+            Produto p = new Produto("TV", 500.00, 10);
+
+            p.Nome = "T";
+
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
+        }
+
+        public static void AutoProperties()
+        {
+            Produto p = new Produto("TV", 500.00, 10);
+
+            p.Nome = "T";
+
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
+        }
+
+        public static void ExercicioSection()
+        {
+            ContaBancaria conta; 
+            Console.Write("Entre o número da conta: ");
+            int numero = int.Parse(Console.ReadLine());
+            Console.Write("Entre o titular da conta: ");
+            string titular = Console.ReadLine();
+            Console.Write("Haverá depósito inicial (s/n)? ");
+            char resp = char.Parse(Console.ReadLine());
+            if(resp == 's' || resp == 'S')
+            {
+                Console.Write("Entre o valor de depósito incial: ");
+                double depositoInicial = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                conta = new ContaBancaria(numero, titular, depositoInicial);
+            }
+            else
+            {
+                conta = new ContaBancaria(numero, titular);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Dados da conta: ");
+            Console.WriteLine(conta);
+
+            Console.WriteLine();
+            Console.Write("Entre um valor para depósito: ");
+            double quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            conta.Deposito(quantia);
+            Console.WriteLine("Dados da conta atualizados: ");
+            Console.WriteLine(conta);
+
+            Console.WriteLine();
+            Console.Write("Entre um valor para saque: ");
+            quantia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            conta.Saque(quantia);
+            Console.WriteLine("Dados da conta atualizados: ");
+            Console.WriteLine(conta);
         }
     }
 }
