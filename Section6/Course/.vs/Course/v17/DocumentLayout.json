@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{318B4F5A-60B0-4447-963D-CDDA9162401B}|Course\\Course.csproj|solutionrelative:course\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{318B4F5A-60B0-4447-963D-CDDA9162401B}|Course\\Course.csproj|c:\\users\\administrator\\documents\\projects\\c#\\c-sharp\\section6\\course\\course\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318B4F5A-60B0-4447-963D-CDDA9162401B}|Course\\Course.csproj|solutionrelative:course\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{318B4F5A-60B0-4447-963D-CDDA9162401B}|Course\\Course.csproj|c:\\users\\administrator\\documents\\projects\\c#\\c-sharp\\section6\\course\\course\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318B4F5A-60B0-4447-963D-CDDA9162401B}|Course\\Course.csproj|solutionrelative:course\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Point.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\C-Sharp\\Section6\\Course\\Course\\Point.cs",
-              "RelativeDocumentMoniker": "Course\\Point.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\C-Sharp\\Section6\\Course\\Course\\Point.cs",
-              "RelativeToolTip": "Course\\Point.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\C-Sharp\\Section6\\Course\\Course\\Calculator.cs",
+              "RelativeDocumentMoniker": "Course\\Calculator.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\C-Sharp\\Section6\\Course\\Course\\Calculator.cs",
+              "RelativeToolTip": "Course\\Calculator.cs",
+              "ViewState": "AQIAAAQAAAAAaGZmZmbGvwsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T00:30:00.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T00:48:19.164Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "Course\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\Projects\\C#\\C-Sharp\\Section6\\Course\\Course\\Program.cs",
               "RelativeToolTip": "Course\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABYAAAAcAAAA",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAkwA4BAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T00:25:33.93Z",
               "EditorCaption": ""
