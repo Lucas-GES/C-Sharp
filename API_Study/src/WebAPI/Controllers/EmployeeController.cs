@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebAPI.Model;
 using WebAPI.ViewModel;
 
 namespace WebAPI.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/v1/employee")]
     public class EmployeeController : ControllerBase
@@ -15,6 +17,7 @@ namespace WebAPI.Controllers
             _employeeRepository = employeeRepository ?? throw new ArgumentNullException(nameof(employeeRepository));
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Add(EmployeeViewModel employeeView)
         {
@@ -31,6 +34,7 @@ namespace WebAPI.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpPost]
         [Route("{id}/download")]
         public IActionResult DownloadPhoto(int id)
@@ -45,6 +49,7 @@ namespace WebAPI.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult Get()
         {
