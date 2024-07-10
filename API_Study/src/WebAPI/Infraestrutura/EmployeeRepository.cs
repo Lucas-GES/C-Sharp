@@ -16,9 +16,9 @@ namespace WebAPI.Infraestrutura
             return _context.Employees.Find(id);
         }
 
-        public List<Employee> GetAll()
+        public List<Employee> Get(int pageNumber, int pageQuantity)
         {
-            return _context.Employees.ToList();
+            return _context.Employees.Skip(pageNumber * pageQuantity).Take(pageQuantity).ToList();
         }
     }
 }
