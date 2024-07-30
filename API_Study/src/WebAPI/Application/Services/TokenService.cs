@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using WebAPI.Domain.Model;
 
-namespace WebAPI.Services
+namespace WebAPI.Application.Services
 {
     public class TokenService
     {

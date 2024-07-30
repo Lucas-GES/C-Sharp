@@ -83,3 +83,4 @@ C:\Users\Administrator\Documents\Projects\C#\C-Sharp\API_Study\src\WebAPI\bin\De
 C:\Users\Administrator\Documents\Projects\C#\C-Sharp\API_Study\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Administrator\Documents\Projects\C#\C-Sharp\API_Study\src\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Administrator\Documents\Projects\C#\C-Sharp\API_Study\src\WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Administrator\Documents\Projects\C#\C-Sharp\API_Study\src\WebAPI\bin\Debug\net8.0\AutoMapper.dll
