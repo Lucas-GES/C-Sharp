@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Domain.Model;
+using WebAPI.Domain.Model.EmployeeAgregate;
 using WebAPI.Application.ViewModel;
 using WebAPI.Domain.DTOs;
 

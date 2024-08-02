@@ -2,7 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using WebAPI.Domain.Model;
+using WebAPI.Domain.Model.EmployeeAgregate;
 
 namespace WebAPI.Application.Services
 {

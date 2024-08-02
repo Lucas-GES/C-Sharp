@@ -1,6 +1,6 @@
 using AutoMapper;
 using WebAPI.Domain.DTOs;
-using WebAPI.Domain.Model;
+using WebAPI.Domain.Model.EmployeeAgregate;
 
 namespace WebAPI.Application.Mapping
 {
